@@ -8,8 +8,9 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6..l8.1",
+    "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
+    "react-sweet-progress": "^1.1.2",
     "sass": "^1.58.3",
     "scss": "^0.2.4",
     "web-vitals": "^2.1.4"
