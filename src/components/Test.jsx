@@ -20,7 +20,6 @@ function Test(props) {
 					<Route path="/2" element={<Question2 />} />
 			</Routes>
             //여기는 라우트가 바뀌면 교체될 내용을 적어준다.
-
         </div>
     );
 }

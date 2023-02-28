@@ -27,9 +27,21 @@
         flex-direction: column;
         justify-content: space-evenly;
         button {
-            width: 80%;
+            width: 80%; height: 50px;
             border-radius: 20px;
             margin: 0 auto;
+            font-size: 16px;
         }
+    }
+
+    .qut{
+        color: #f8c80a;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .qut_txt{
+        font-size: 18px;
+        font-weight: bold;
     }
 }
