@@ -1,4 +1,5 @@
 import React from 'react';
+import '../resources/sass/Result.scss';
 
 import { Link } from 'react-router-dom';
 
@@ -11,8 +12,8 @@ function Result(props) {
                 <div>사진</div>
                 <p>intp</p>
                 <p>설명</p>
-                <p>우리 댕댕이의 동화만들기</p>
-                <button><Link to='/dduka'>동화만들기</Link></button>
+                <p>intp 댕댕이의 학교생활 동화!</p>
+                <button className='tale'><Link to='/dduka'>동화보러 Go!</Link></button>
             </div>
         </div>
     );
