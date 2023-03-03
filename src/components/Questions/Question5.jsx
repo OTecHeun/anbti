@@ -11,15 +11,14 @@ function Question5(props) {
                 <p className='qut_txt'>산책 가다가 만난 행인! "어머~ 댕댕이 너무 귀엽다"</p>
             </div>
             <div className='buttons'>
-                <button className='top'>
-                    <Link to="/dduka/6" >맞아요. 저예요. 기다렸어요. 당신의 관심. 만져! 예뻐해줘! 사랑해줘!</Link>
-                </button>
-                <button className='button'>
-                    <Link to="/dduka/6" >으르릉,,, 으즈므르,,, 일단 피한다</Link>
-                </button>
+                <Link to="/dduka/6" >
+                    <button className='top'>맞아요. 저예요. 기다렸어요. 당신의 관심. 만져! 예뻐해줘! 사랑해줘!</button>
+                </Link>
+                <Link to="/dduka/6" >
+                    <button className='bottom'>으르릉,,, 으즈므르,,, 일단 피한다</button>
+                </Link>
             </div>
         </>
     );
 }
-
 export default Question5;

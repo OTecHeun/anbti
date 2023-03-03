@@ -11,15 +11,14 @@ function Question6(props) {
                 <p className='qut_txt'>멍 때리고 있는 댕댕이에게 다른 댕댕이의 짖는 소리가 들린다!</p>
             </div>
             <div className='buttons'>
-                <button className='top'>
-                    <Link to="/dduka/7" >멍멍! 와를르 멍! 무서운게 왔나봐! 온갖 망상에 같이 따라 짖는다</Link>
-                </button>
-                <button className='button'>
-                    <Link to="/dduka/7" >어 왜 짖지..? 주위 상황을 파악한다</Link>
-                </button>
+                <Link to="/dduka/7" >
+                    <button className='top'>멍멍! 와를르 멍! 무서운게 왔나봐! 온갖 망상에 같이 따라 짖는다</button>
+                </Link>
+                <Link to="/dduka/7" >
+                    <button className='bottom'>어 왜 짖지..? 주위 상황을 파악한다</button>
+                </Link>
             </div>
         </>
     );
 }
-
 export default Question6;

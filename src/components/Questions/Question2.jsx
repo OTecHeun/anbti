@@ -11,16 +11,14 @@ function Question2(props) {
                 <p className='qut_txt'>꿈나라로 빠져든 댕댕이는 어떤 꿈을 꿀까??</p>
             </div>
             <div className='buttons'>
-                <button className='top'>
-                    <Link to="/dduka/3" >구름 위를 둥~둥~~ 날아다니면서 도넛 구름을 냠냠</Link>
-                </button>
-                <button className='button'>
-                    <Link to="/dduka/3" >꿈? 그런 거 없이 잠은 눈 감았다가 뜨는 일</Link>
-                </button>
+                <Link to="/dduka/3" >
+                    <button className='top'>구름 위를 둥~둥~~ 날아다니면서 도넛 구름을 냠냠</button>
+                </Link>
+                <Link to="/dduka/3" >
+                    <button className='bottom'>꿈? 그런 거 없이 잠은 눈 감았다가 뜨는 일</button>
+                </Link>
             </div>
         </>
-
     );
 }
-
 export default Question2;

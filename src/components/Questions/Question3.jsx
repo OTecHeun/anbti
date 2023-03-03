@@ -11,16 +11,14 @@ function Question3(props) {
                 <p className='qut_txt'>오잉..? 집사가 울고 있잖아..!</p>
             </div>
             <div className='buttons'>
-                <button className='top'>
-                    <Link to="/dduka/4" >어디 아파??ㅠㅠ 내가 핥아줄게 아프지마 집사가 아프면 내가 아프고 심장이 찢어지고 내 세상이 무너지고 그리고 어쩌구 저쩌구</Link>
-                </button>
-                <button className='button'>
-                    <Link to="/dduka/4" >시끄럽네... 그칠 때까지 자리를 피한다</Link>
-                </button>
+                <Link to="/dduka/4" >
+                    <button className='top'>어디 아파??ㅠㅠ 내가 핥아줄게 아프지마 집사가 아프면 내가 아프고 심장이 찢어지고 내 세상이 무너지고 그리고 어쩌구 저쩌구</button>
+                </Link>
+                <Link to="/dduka/4" >
+                    <button className='bottom'>시끄럽네... 그칠 때까지 자리를 피한다</button>
+                </Link>
             </div>
         </>
-
     );
 }
-
 export default Question3;

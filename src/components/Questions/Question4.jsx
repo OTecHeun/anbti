@@ -11,15 +11,14 @@ function Question4(props) {
                 <p className='qut_txt'>댕댕아~ 산책가자~!</p>
             </div>
             <div className='buttons'>
-                <button className='top'>
-                    <Link to="/dduka/5" >오늘은 근처에 자주 가던 놀이터에서 쉬를 하고 담에 슈퍼로 가야지</Link>
-                </button>
-                <button className='button'>
-                    <Link to="/dduka/5" >오늘은 여기가 끌리는데?? 집사의 줄을 당긴다</Link>
-                </button>
+                <Link to="/dduka/5" >
+                    <button className='top'>오늘은 근처에 자주 가던 놀이터에서 쉬를 하고 담에 슈퍼로 가야지</button>
+                </Link>
+                <Link to="/dduka/5" >
+                    <button className='bottom'>오늘은 여기가 끌리는데?? 집사의 줄을 당긴다</button>
+                </Link>
             </div>
         </>
     );
 }
-
 export default Question4;

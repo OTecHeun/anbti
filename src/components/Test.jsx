@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../resources/sass/Test.scss';
 import { Progress } from 'react-sweet-progress';
 import "react-sweet-progress/lib/style.css";
@@ -14,8 +14,12 @@ import Question7 from './Questions/Question7';
 import Question8 from './Questions/Question8';
 import Question9 from './Questions/Question9';
 import Question10 from './Questions/Question10';
+import Result from './Result';
 
 function Test(props) {
+
+	const [value, setValue] = useState([]);
+	
     return (
         <div className='testContent'>
             <div className='progBar'>
@@ -34,6 +38,7 @@ function Test(props) {
 				<Route path="/8" element={<Question8 />} />
 				<Route path="/9" element={<Question9 />} />
 				<Route path="/10" element={<Question10 />} />
+				<Route path="/result" element={<Result />} />
 			</Routes>
             //여기는 라우트가 바뀌면 교체될 내용을 적어준다.
         </div>
