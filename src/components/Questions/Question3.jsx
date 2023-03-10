@@ -7,12 +7,11 @@ function Question3(props) {
 
     const dispatch = useDispatch();
 
-	const inputData = useSelector(state => state.testReducer.inputData)
-    const result = inputData.result;
+	const saveData = useSelector(state => state.testReducer.saveData);
 
     const changeResult = (index) => {
-        var tmpArr = result;
-        tmpArr[index] = result[index] + 1;
+        var tmpArr = saveData;
+        tmpArr[index] = saveData[index] + 1;
         console.log(tmpArr);
 
         dispatch(resultSave(tmpArr))

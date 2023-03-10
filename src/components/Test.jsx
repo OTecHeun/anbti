@@ -19,13 +19,13 @@ import Result from './Result';
 
 function Test(props) {
 
-	const inputData = useSelector(state => state.testReducer.inputData)
+	const saveData = useSelector(state => state.testReducer.saveData)
 
     return (
         <div className='testContent'>
             <div className='progBar'>
                 <Progress percent={88} status="success" />
-                array: {inputData.result}
+                array: { saveData }
             </div>
             //프로그래스 바는 페이지가 바뀌어도 바뀌지 않고 그대로 있는 요소니까 여기 둔다!
 
