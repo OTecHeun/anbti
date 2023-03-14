@@ -27,7 +27,7 @@ function Question5(props) {
                 <Link to="/dduka/6" onClick={() => changeResult(0)}>
                     <button className='top'>맞아요. 저예요. 기다렸어요. 당신의 관심. 만져! 예뻐해줘! 사랑해줘!</button>
                 </Link>
-                <Link to="/dduka/6" onClick={() => changeResult(0)}>
+                <Link to="/dduka/6" onClick={() => changeResult(1)}>
                     <button className='bottom'>으르릉,,, 으즈므르,,, 일단 피한다</button>
                 </Link>
             </div>
