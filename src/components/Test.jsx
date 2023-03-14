@@ -3,6 +3,7 @@ import '../resources/sass/Test.scss';
 import { Progress } from 'react-sweet-progress';
 import "react-sweet-progress/lib/style.css";
 import {Link, Route, Routes} from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 import Question1 from './Questions/Question1';
 import Question2 from './Questions/Question2';
@@ -18,12 +19,13 @@ import Result from './Result';
 
 function Test(props) {
 
-	const [value, setValue] = useState([]);
-	
+	const saveData = useSelector(state => state.testReducer.saveData)
+
     return (
         <div className='testContent'>
             <div className='progBar'>
                 <Progress percent={88} status="success" />
+                array: { saveData }
             </div>
             //프로그래스 바는 페이지가 바뀌어도 바뀌지 않고 그대로 있는 요소니까 여기 둔다!
 
