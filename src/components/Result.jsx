@@ -50,9 +50,9 @@ function Result(props) {
             <div className='content'>
                 <p>결과 페 이 지 지 료!</p>
                 <div>사진</div>
-                <p>{ resultMBTI }</p>
+                <p className='resultNbti'>{ resultMBTI }</p>
                 <p>설명</p>
-                <p>intp 댕댕이의 학교생활 동화!</p>
+                <p>{resultMBTI} 댕댕이의 학교생활 동화!</p>
                 <button className='tale'><Link to='/dduka'>동화보러 Go!</Link></button>
             </div>
         </div>
