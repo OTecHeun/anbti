@@ -10,12 +10,14 @@ function Result(props) {
 
     var resultMBTI = '';
 
+    // E,I,N,S,F,T,P,J
+
     // I & E
     if ( saveData[0] > saveData[1] ) {
-        resultMBTI += "I";
+        resultMBTI += "E";
     }
     else {
-        resultMBTI += "E";
+        resultMBTI += "I";
     }
 
     // N & S
@@ -36,10 +38,10 @@ function Result(props) {
 
     // J & P
     if ( saveData[6] > saveData[7] ) {
-        resultMBTI += "J";
+        resultMBTI += "P";
     }
     else {
-        resultMBTI += "P";
+        resultMBTI += "J";
     }
 
     return (

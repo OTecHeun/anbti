@@ -19,20 +19,20 @@ function Question3(props) {
 
     return (
         <>
-            <img src='https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F6Vi0A%2FbtrDpOJb4oK%2FNKFqM1QKQSn6kLgfL1Yp51%2Fimg.jpg'/>
-            <div>
-                <p className='qut'>Q3.</p>
-                <p className='qut_txt'>오잉..? 집사가 울고 있잖아..!</p>
-            </div>
-            <div className='buttons'>
-                <Link to="/dduka/4" onClick={() => changeResult(5)}>
-                    <button className='top'>어디 아파??ㅠㅠ 내가 핥아줄게 아프지마 집사가 아프면 내가 아프고 심장이 찢어지고 내 세상이 무너지고 그리고 어쩌구 저쩌구</button>
-                </Link>
-                <Link to="/dduka/4" onClick={() => changeResult(6)}>
-                    <button className='bottom'>시끄럽네... 그칠 때까지 자리를 피한다</button>
-                </Link>
-            </div>
-        </>
+        <img src='https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5qAHJ%2FbtrCE3k13mH%2FVbkHvh3YvXOOI9okM2mOk0%2Fimg.jpg'/>
+        <div>
+            <p className='qut'>Q3.</p>
+            <p className='qut_txt'>친구와 신나게 놀고난 후!</p>
+        </div>
+        <div className='buttons'>
+            <Link to="/dduka/4" onClick={() => changeResult(1)}>
+                <button className='top'>이제 슬슬 집 갈까??(아..얼른 혼자 쉬고싶어...)</button>
+            </Link>
+            <Link to="/dduka/4" onClick={() => changeResult(0)}>
+                <button className='bottom'>우리 집에 가서 자자 같이 더 놀자 내일도 놀자~!</button>
+            </Link>
+        </div>
+    </>
     );
 }
 export default Question3;

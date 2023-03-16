@@ -16,18 +16,18 @@ function Question2(props) {
     }
 
     return (
-        <>
-            <img src='https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbrlkhu%2FbtrDpPVF2M6%2FIyarNlPjQYvkOya40TpXB0%2Fimg.jpg'/>
+         <>
+            <img src='https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F6Vi0A%2FbtrDpOJb4oK%2FNKFqM1QKQSn6kLgfL1Yp51%2Fimg.jpg'/>
             <div>
                 <p className='qut'>Q2.</p>
-                <p className='qut_txt'>꿈나라로 빠져든 댕댕이는 어떤 꿈을 꿀까??</p>
+                <p className='qut_txt'>오잉..? 집사가 울고 있잖아..!</p>
             </div>
             <div className='buttons'>
-                <Link to="/dduka/3" onClick={() => changeResult(3)}>
-                    <button className='top'>구름 위를 둥~둥~~ 날아다니면서 도넛 구름을 냠냠</button>
+                <Link to="/dduka/3" onClick={() => changeResult(4)}>
+                    <button className='top'>어디 아파??ㅠㅠ 내가 핥아줄게 아프지마 집사가 아프면 내가 아프고 심장이 찢어지고 내 세상이 무너지고 그리고 어쩌구 저쩌구</button>
                 </Link>
-                <Link to="/dduka/3" onClick={() => changeResult(2)}>
-                    <button className='bottom'>꿈? 그런 거 없이 잠은 눈 감았다가 뜨는 일</button>
+                <Link to="/dduka/3" onClick={() => changeResult(5)}>
+                    <button className='bottom'>시끄럽네... 그칠 때까지 자리를 피한다</button>
                 </Link>
             </div>
         </>

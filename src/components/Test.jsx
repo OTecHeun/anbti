@@ -15,6 +15,8 @@ import Question7 from './Questions/Question7';
 import Question8 from './Questions/Question8';
 import Question9 from './Questions/Question9';
 import Question10 from './Questions/Question10';
+import Question11 from './Questions/Question11';
+import Question12 from './Questions/Question12';
 import Result from './Result';
 
 function Test(props) {
@@ -40,6 +42,8 @@ function Test(props) {
 				<Route path="/8" element={<Question8 />} />
 				<Route path="/9" element={<Question9 />} />
 				<Route path="/10" element={<Question10 />} />
+				<Route path="/11" element={<Question11 />} />
+				<Route path="/12" element={<Question12 />} />
 				<Route path="/result" element={<Result />} />
 			</Routes>
             //여기는 라우트가 바뀌면 교체될 내용을 적어준다.
