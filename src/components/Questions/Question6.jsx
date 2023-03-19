@@ -11,7 +11,7 @@ function Question6(props) {
     const changeResult = (index) => {
         var tmpArr = saveData;
         tmpArr[index] = saveData[index] + 1;
-
+        console.log(tmpArr);
         dispatch(resultSave(tmpArr))
     }
     

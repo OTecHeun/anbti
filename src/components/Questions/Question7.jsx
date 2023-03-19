@@ -24,10 +24,10 @@ function Question7(props) {
                 <p className='qut_txt'>댕댕이 유치원을 다니게 된 댕댕이...</p>
             </div>
             <div className='buttons'>
-                <Link to="/dduka/8" onClick={() => changeResult(8)}>
+                <Link to="/dduka/8" onClick={() => changeResult(7)}>
                     <button className='top'>내 하루일정이 정해져있는 건 넘 안정적인 거야! 너무 좋아!!</button>
                 </Link>
-                <Link to="/dduka/8" onClick={() => changeResult(7)}>
+                <Link to="/dduka/8" onClick={() => changeResult(6)}>
                     <button className='bottom'>일어나기 귀찮아,,, 시간표도 싫어! 내 맘대로 놀고싶어ㅠ.ㅠ</button>
                 </Link>
             </div>
