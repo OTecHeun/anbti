@@ -23,10 +23,10 @@ function Question9(props) {
                 <p className='qut_txt'>집사가 갑자기 집에서 춤을 추는데..! 그걸 본 댕댕이의 반응은??</p>
             </div>
             <div className='buttons'>
-                <Link to="/dduka/10" onClick={() => changeResult(3)}>
+                <Link to="/dduka/10" onClick={() => changeResult(2)}>
                     <button className='top'>나비 잡으러 가는 거지!? 옆에서 점프하고 같이 난리난 댕댕</button>
                 </Link>
-                <Link to="/dduka/10" onClick={() => changeResult(4)}>
+                <Link to="/dduka/10" onClick={() => changeResult(3)}>
                     <button className='bottom'>어,, 너,,, 뭐하는,,,? 바라본다</button>
                 </Link>
             </div>
