@@ -16,6 +16,17 @@
         flex-direction: column;
         p {
             text-align: center;
+            color: rgb(186, 109, 31);
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .title{
+            font-size: 24px; 
+            color: rgb(0, 0, 0);
+        }
+        .sub-title{
+            font-size: 16px; font-weight: 500;
+            color: black;
         }
     
         div {
@@ -23,6 +34,16 @@
         }
         button {
             margin: auto;
+            width: 30%;
+            border-radius: 25px;
+            padding: 15px 30px;
+            font-size: 18px; font-weight: bold;
+            border: 2px solid #dedede;
+            background-color: aliceblue;
+            a {
+                text-decoration: none;
+                color: rgb(252, 185, 1);
+            }
         }
     }
 }

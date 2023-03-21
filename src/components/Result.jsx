@@ -39,6 +39,23 @@ function Result(props) {
         resultMBTI += "J";
     }
 
+    var data = [];
+    fetch('/nbti.json', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        }
+      })
+      .then((res) => res.json())
+      .then((data) => {
+        data.map((el) => {
+            if (el.type == resultMBTI) {
+                console.log('el',el)
+            }
+        })
+      })
+
+    
     return (
         <div className='bigBox'>
             <div className='hide'></div>
