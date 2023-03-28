@@ -11,7 +11,7 @@ function Intro(props) {
                 <p className='sub-title'>댕댕이의 MBTI를 검사하면 AI가 <br />우리 댕댕이가 주인공인 동화를 만들어줍니다.</p>
                 <div>사진</div>
                 <div>할 수 있는지 알아봐야하는 url연결</div>
-                <button><Link to='/dduka'>테스트 시작!</Link></button>
+                <Link to='/dduka' className='link'><button>테스트 시작!</button></Link>
                 <div>메이드 이미지</div>
             </div>
         </div>

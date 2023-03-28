@@ -54,7 +54,6 @@ function Result(props) {
             }
         })
       })
-
     
     return (
         <div className='bigBox'>
@@ -63,7 +62,7 @@ function Result(props) {
                 <p>과연 우리 댕댕이의 MBTI는!?</p>
                 <div>사진</div>
                 <p className='resultNbti'>{ resultMBTI }</p>
-                <p>설명</p>
+                <p>설명{}</p>
                 <p>{resultMBTI} 댕댕이의 학교생활 동화!</p>
                 <button className='tale'><Link to='/gpt'>동화보러 Go!</Link></button>
             </div>

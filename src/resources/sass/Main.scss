@@ -3,7 +3,8 @@
     top: 0;
     left: calc(50% - 300px);
     width: 600px; height: 100%;
-    background-color: aqua;
+    background-color: rgb(240, 225, 169);
+    border-radius: 5%;
 
     .hide {
         height: 20%;
@@ -16,13 +17,13 @@
         flex-direction: column;
         p {
             text-align: center;
-            color: rgb(186, 109, 31);
+            color: rgb(205, 121, 38);
             font-size: 18px;
             font-weight: bold;
         }
         .title{
-            font-size: 24px; 
-            color: rgb(0, 0, 0);
+            font-size: 24px; font-weight: 800;
+            color: #757791;
         }
         .sub-title{
             font-size: 16px; font-weight: 500;
@@ -32,17 +33,24 @@
         div {
             text-align: center;
         }
+        
         button {
+           background: 
+         repeating-linear-gradient(-45deg, transparent, transparent 5px,
+           rgba(143, 77, 63, 0.15) 5px, rgba(143, 77, 63, 0.15) 10px),
+         repeating-linear-gradient(45deg, transparent, transparent 5px,
+           rgba(143, 77, 63, 0.15) 5px, rgba(143, 77, 63, 0.15) 10px);
             margin: auto;
             width: 30%;
             border-radius: 25px;
             padding: 15px 30px;
             font-size: 18px; font-weight: bold;
-            border: 2px solid #dedede;
-            background-color: aliceblue;
+            border: 3px solid #cbb0b0;
+            background-color: rgb(244, 248, 252);
             a {
                 text-decoration: none;
-                color: rgb(252, 185, 1);
+                color: rgb(91, 56, 56);
+                font-weight: 900;
             }
         }
     }
