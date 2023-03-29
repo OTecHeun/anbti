@@ -3,7 +3,7 @@
     top: 0;
     left: calc(50% - 300px);
     width: 600px; height: 100%;
-    background-color: rgb(240, 225, 169);
+    background-color: rgb(238, 220, 157);
     border-radius: 5%;
 
     .hide {
@@ -22,8 +22,9 @@
             font-weight: bold;
         }
         .title{
-            font-size: 24px; font-weight: 800;
-            color: #757791;
+            font-size: 28px; font-weight: 800;
+            line-height: 1.4;
+            color: #727389;
         }
         .sub-title{
             font-size: 16px; font-weight: 500;
@@ -40,12 +41,12 @@
            rgba(143, 77, 63, 0.15) 5px, rgba(143, 77, 63, 0.15) 10px),
          repeating-linear-gradient(45deg, transparent, transparent 5px,
            rgba(143, 77, 63, 0.15) 5px, rgba(143, 77, 63, 0.15) 10px);
-            margin: auto;
             width: 30%;
+            margin: 20% auto;
             border-radius: 25px;
             padding: 15px 30px;
             font-size: 18px; font-weight: bold;
-            border: 3px solid #cbb0b0;
+            border: 3px solid #ab8c8cdd;
             background-color: rgb(244, 248, 252);
             a {
                 text-decoration: none;
