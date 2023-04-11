@@ -24,12 +24,16 @@ function Question4(props) {
                 <p className='qut_txt'>댕댕아~ 산책가자~!</p>
             </div>
             <div className='buttons'>
-                <Link to="/dduka/5" onClick={() => changeResult(6)}>
-                    <button className='top'>오늘은 근처에 자주 가던 놀이터에서 쉬를 하고 담에 슈퍼로 가야지</button>
-                </Link>
-                <Link to="/dduka/5" onClick={() => changeResult(7)}>
-                    <button className='bottom'>오늘은 여기가 끌리는데?? 집사의 줄을 당긴다</button>
-                </Link>
+                <div>
+                    <Link to="/dduka/5" onClick={() => changeResult(6)}>
+                        <button className='top'>오늘은 근처에 자주 가던 놀이터에서 쉬를 하고<br></br> 담에 슈퍼로 가야지</button>
+                    </Link>
+                    </div>
+                <div>
+                    <Link to="/dduka/5" onClick={() => changeResult(7)}>
+                        <button className='bottom'>오늘은 여기가 끌리는데?? 집사의 줄을 당긴다</button>
+                    </Link>
+                </div>
             </div>
         </>
     );

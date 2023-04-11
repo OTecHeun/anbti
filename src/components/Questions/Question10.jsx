@@ -23,12 +23,16 @@ function Question10(props) {
                 <p className='qut_txt'>낯선 곳으로 여행을 떠나는 댕댕이가 하는 생각은!?</p>
             </div>
             <div className='buttons'>
-                <Link to="/dduka/11" onClick={() => changeResult(0)}>
-                    <button className='top'>낯선 곳은 좀 무서운데,,ㅜ_ㅜ 자기만의 세상에 빠진다..</button>
-                </Link>
-                <Link to="/dduka/11" onClick={() => changeResult(1)}>
-                    <button className='bottom'>우와 저기 재밌어 보인다. 여기저기 가서 오줌 막 눌거야!</button>
-                </Link>
+                <div>
+                    <Link to="/dduka/11" onClick={() => changeResult(0)}>
+                        <button className='top'>낯선 곳은 좀 무서운데,,ㅜ_ㅜ 자기만의 세상에 빠진다..</button>
+                    </Link>
+                </div>
+                <div>
+                    <Link to="/dduka/11" onClick={() => changeResult(1)}>
+                        <button className='bottom'>우와 저기 재밌어 보인다. 여기저기 가서 오줌 막 눌거야!</button>
+                    </Link>
+                </div>
             </div>
         </>
     );
