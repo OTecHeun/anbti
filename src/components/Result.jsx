@@ -64,13 +64,12 @@ function Result(props) {
 
     return (
         <div className='bigBox'>
-            <div className='hide'></div>
             <div className='content'>
                 <div className='title'>과연 우리 댕댕이의 MBTI는!?</div>
-                <div>사진</div>
+                <div><img src={ fetchedData.image }></img></div>
                 <p className='resultNbti'>{ resultMBTI }</p>
                 <a className='result-sub'>{ fetchedData.Desc }</a>
-                <p>{resultMBTI} 댕댕이의 학교생활 동화!</p>
+                <p className='result-school'>{resultMBTI} 우리 댕댕이~ 학교에서는 어떨까?!</p>
                 <div><Link to='/gpt'><button>동화보러 Go!</button></Link></div>
             </div>
         </div>
@@ -78,3 +77,4 @@ function Result(props) {
 }
 
 export default Result;
+

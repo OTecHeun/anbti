@@ -29,7 +29,6 @@ function Test(props) {
                 <Progress percent={88} status="success" />
                 array: { saveData }
             </div>
-            //프로그래스 바는 페이지가 바뀌어도 바뀌지 않고 그대로 있는 요소니까 여기 둔다!
 
             <Routes>
 				<Route path="/*" element={<Question1 />} />
@@ -46,7 +45,6 @@ function Test(props) {
 				<Route path="/12" element={<Question12 />} />
 				<Route path="/result" element={<Result />} />
 			</Routes>
-            //여기는 라우트가 바뀌면 교체될 내용을 적어준다.
         </div>
     );
 }

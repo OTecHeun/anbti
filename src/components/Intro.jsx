@@ -12,7 +12,6 @@ function Intro(props) {
                 <div>사진</div>
                 <div>할 수 있는지 알아봐야하는 url연결</div>
                 <div><Link to='/dduka'><button>테스트 시작!</button></Link></div>
-                <div>메이드 이미지</div>
             </div>
         </div>
     );
